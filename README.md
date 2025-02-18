@@ -41,12 +41,14 @@ Inventory {
 
 # Product 
 Product has a one to many relationship with sales. This is because the product has one prodNumber and can be applied or filled through many sales.
+
 Product includes
 * string prodNumber PK - the unique number for each product
 * string category - the category of shoe like tenis shoe, running shoe, ect
 * string description - color, make, model
 # Customer
 Customer has a one to many relationship to sales. This is because one customer defined by the custNumber can place many sales.
+
 Customer includes
 * string firstName
 * string lastName
@@ -63,6 +65,7 @@ Sales includes
 * float discount - if there was a discount it could affrect the selling price
 # Inventory
 Inventory has a many to one relationship to products. There are many locations for one product
+
 Inventory includes
 * string invLocation PK - There can be many locations the products can be found
 * string prodNumber FK - Product number defines what you are looking for
