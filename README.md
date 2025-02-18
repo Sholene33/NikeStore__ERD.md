@@ -2,7 +2,7 @@
  ERD of a Nike store
 
 ---
-title: Nike Store
+Nike Store
 ---
 ```mermaid
 erDiagram
